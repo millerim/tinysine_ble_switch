@@ -1,0 +1,16 @@
+{
+  "domain": "tinysine_ble_switch",
+  "name": "TinySine BLE Switch",
+  "version": "1.0",
+  "config_flow": true,
+  "documentation": "https://example.com",
+  "dependencies": [],
+  "codeowners": ["@millerim"],
+  "requirements": ["bleak"],
+  "iot_class": "local_polling",
+  "bluetooth": [
+  {
+          "local_name": "BT Bee*"
+  }
+  ]
+}
