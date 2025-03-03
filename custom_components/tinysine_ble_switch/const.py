@@ -1,0 +1,1 @@
+DOMAIN = "tinysine_ble_switch"
