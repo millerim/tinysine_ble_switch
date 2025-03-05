@@ -4,7 +4,7 @@ from homeassistant.const import CONF_MAC
 from .const import DOMAIN
 
 async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry):
-    """Set up BLE Switch from a config entry."""
+    """Set up TinySine BLE Switch from a config entry."""
     hass.data.setdefault(DOMAIN, {})
     # Store only config, we'll create clients on-demand
     hass.data[DOMAIN][entry.entry_id] = {
